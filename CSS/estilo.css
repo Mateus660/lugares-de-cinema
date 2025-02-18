@@ -41,7 +41,25 @@ header {
     display: inline-block;
 }
 
+#resultado {
+    color: black;
+    display: none;
+}
+
+.cadeiras > p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+
 
 .cadeiras:hover {
     background-color: yellow;
+}
+
+#click {
+    width: 200px;
+    height: 200px;
+    background-color: black;
 }
