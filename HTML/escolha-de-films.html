@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/filmes.css">
+    <title>escolha de filmes</title>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>Que filme deseja assistir ?</h1>
+        </header>
+        
+        <div id="catalogo">
+
+        <div class="filmes" onclick="selecionado()">
+                <img src="../IMG/homem-aranha1.jpg" alt="homem aranha 1" srcset="homem aranha 1" height="300px" width="200px">
+                <h1>Homem aranha 1</h1>
+            </div>
+
+            <div class="filmes" onclick="selecionado()">
+                <img src="../IMG/hmem-aranha2.jpg" alt="homem aranha 2" srcset="homem aranha 2" height="300px" width="200px">
+                <h1>homem  aranha 2</h1>
+            </div>
+            
+            <div class="filmes">
+                <img src="../IMG/homem-aranha3.jpg" alt="homemaranha 3" srcset="homem aranha 3" height="300px" width="200px"  onclick="selecionado()">
+                <h1>Homem aranha 3</h1>
+            </div> 
+
+            <button type="submit" id="pros" onclick="prosseguir()"><a href="../HTML/sala-de-cinema.html">Proseguir</a></button>
+
+      </div>
+    </div> 
+
+    <script src="../JAVASCRIPT/escolha_de_filmes.js"></script>
+</body>
+</html>
